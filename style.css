@@ -261,4 +261,8 @@ footer .footer-copyright {
  .migration-profile-section {
     height: 35vh;
  }
+
+ .map-section iframe {
+    width: 85vw;
+ }
 }
