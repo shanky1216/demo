@@ -249,7 +249,16 @@ footer .footer-copyright {
         padding-bottom: 1rem ;
      }
 
-     footer ul {
+     footer nav ul {
         flex-direction: column;
      }
+
+     .sign-up-form-section input {
+        width: 70vw;
+     }
+
+     
+ .migration-profile-section {
+    height: 35vh;
+ }
 }
