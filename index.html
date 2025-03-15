@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home tuE</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="home-main">
         <!-- Navbar -->
-        <nav>
+        <nav class="top-navbar">
             <ul>
                 <li><a href="#">why the charterd</a></li>
                 <li><a href="#">experts</a></li>
                 <li><a href="#">
-                    <img src="/assets/logo.jpg" alt="" height="50px" width="50px">
+                    <img src="/assets/logo.jpg" alt="" height="auto" width="50px">
                 </a></li>
                 <li><a href="#">expeditions</a></li>
                 <li><a href="#">The compass</a></li>
@@ -27,9 +28,9 @@
          </Header>
 
          <!-- The Great Migration Section -->
-          <section class="the-great-migration">
+          <section class="the-great-migration flex">
             <div class="the-great-migration-left">
-                <div>
+                <div class="migration-left-section-first flex">
                     <div>
                         <h3>THe Great Migration</h3>
                         <p>Masai Mara, Africa</p>
@@ -37,75 +38,77 @@
                     <div>
                         <h3>$2,499</h3>
                         <p>per person</p>
-                    </div><hr>
+                    </div>
                 </div>
 
-                <div>
-                    <ul>
+                <div class="migration-left-section-second">
+                    <ul class="flex">
                         <li>7 Days</li>
                         <li>Photography</li>
                         <li>6 Peoples</li>
                         <li>English</li>
-                    </ul><hr>
+                    </ul>
                 </div>
-
-                <div>
+                <!-- Overview section -->
+                <div class="overview-section">
                     <h3>Overview</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed numquam est illum molestiae ratione nostrum corrupti maxime. Laudantium optio delectus nam dolorem quo sit et porro quae pariatur recusandae aliquid, voluptates dolorum neque repudiandae nemo ullam minima. Qui provident necessitatibus distinctio voluptas voluptates, voluptate molestias illum blanditiis et ipsam reprehenderit!</p>
-                    <span><a href="#">Read more</a></span><hr>
+                    <span><a href="#">Read more</a></span>
                 </div>
 
-                <div>
+                <div class="overview-section">
                     <h3>accommodation amidst action</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis animi ad fugiat laudantium, vero quae nam vitae culpa quasi non ullam ipsam distinctio laborum. Similique magnam ut quae fugiat veritatis blanditiis, id suscipit consequuntur consequatur quos quibusdam reprehenderit amet quaerat ipsum sint, velit aliquam. Consequatur ab nesciunt cupiditate nobis omnis?</p>
-                    <span><a href="#">Read more</a></span><hr>
+                    <span><a href="#">Read more</a></span>
                 </div>
 
-                <div>
-                    <div>
-                        <div>
+                <!-- Days section -->
+                <div class="day-section-main">
+                    <div class="day-section-outer">
+                        <div class="flex day-section-inner">
                             <h3>> Day 1 : 9 Sep-Arrive at Nairabi</h3>
                             <span>Lunch & Dinner</span>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt doloribus voluptatem aut?</p>
                     </div>
-                    <div>
-                        <div>
+                    <div class="day-section-outer">
+                        <div class="flex day-section-inner">
                             <h3>> Day 2 : 10 Sep-Depart to Masai Mara</h3>
                             <span>Lunch & Dinner</span>
                         </div>
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt doloribus voluptatem aut?</p> -->
                     </div>
-                    <div>
-                        <div>
+                    <div class="day-section-outer">
+                        <div class="flex day-section-inner">
                             <h3>> Day 3 to 6 : 11 to 14 Sep Masai Mara Game Drive</h3>
                             <span>Lunch & Dinner</span>
                         </div>
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt doloribus voluptatem aut?</p> -->
                     </div>
-                    <div>
-                        <div>
+                    <div class="day-section-outer">
+                        <div class="flex day-section-inner">
                             <h3>> Day 7 : 15 Sep Departure</h3>
                             <span>Lunch & Dinner</span>
                         </div>
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt doloribus voluptatem aut?</p> -->
                     </div>
-                </div><hr>
+                </div>
 
                 <!-- Map -->
-                <div>
+                <div class="map-section">
                     <iframe src="https://www.google.com/maps/d/embed?mid=1h_J00_JXptA5pPdTVecER49LsqceCGU&amp;ehbc=2E312F"></iframe><br><br>
                 </div>
 
                 <!-- carausal -->
-                 <div>
-                    <img src="/assets/bg-image.jpg" alt="">
+                 <div class="migration-carausal flex">
+                    <span><</span>
+                    <span>></span>
                  </div>
 
                  <!-- The great migration left last section -->
                 <div>
-                    <div>
-                        <h3>> inclusion</h3>
+                    <div class="day-section-outer">
+                        <h3 class="day-section-inner">> inclusion</h3>
                         <div>
                             <ul>
                                 <li>-1 Night stay in 4 Point at Nairabi</li>
@@ -118,8 +121,8 @@
                         </div>
                     </div>
 
-                    <div>
-                        <h3>> Exclusions</h3>
+                    <div class="day-section-outer">
+                        <h3 class="day-section-inner">> Exclusions</h3>
                         <!-- <div>
                             <ul>
                                 <li>-1 Night stay in 4 Point at Nairabi</li>
@@ -132,8 +135,8 @@
                         </div> -->
                     </div>
 
-                    <div>
-                        <h3>> notes</h3>
+                    <div class="day-section-outer">
+                        <h3 class="day-section-inner">> notes</h3>
                         <!-- <div>
                             <ul>
                                 <li>-1 Night stay in 4 Point at Nairabi</li>
@@ -151,7 +154,7 @@
             <!-- The Great Migration Right section -->
             <div class="the-great-migration-right">
                 <!-- Profile -->
-                 <div>
+                 <div class="bg-black migration-profile-section">
                     <img src="/assets/profile.jpg" alt="">
                     <h3>Gaythri Devi</h3>
                     <h4>expedition leader</h4>
@@ -159,20 +162,20 @@
                  </div>
 
                  <!-- sign up form -->
-                  <div>
-                    <h3>sign up!</h3>
+                  <div class="sign-up-form-section">
+                    <h3 class="bg-black">sign up!</h3>
                     <form action="">
                         <input type="text" placeholder="Name"><br>
                         <input type="number" placeholder="Phone"><br>
                         <input type="email" placeholder="Email"><br>
                         <input type="text" placeholder="Location"><br>
                         <input type="date" placeholder="Guest"><br>
-                        <button type="submit">BOOK NOW</button>
+                        <button type="submit" class="bg-black">BOOK NOW</button>
                     </form>
                   </div>
 
                   <!-- Have any question -->
-                   <div>
+                   <div class="bg-black migration-question">
                     <h3>Have Any Question?</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, ipsum!</p>
                     <span><a href="#">+91 8602672443</a></span><br>
@@ -182,12 +185,12 @@
           </section>
 
           <!-- Subscribe section -->
-           <section style="background: url(/assets/bg-image.jpg); background-size: cover; height: 40vh;">
+           <section style="background: url(/assets/bg-image.jpg); background-size: cover; height: 40vh;" class="flex subscribe-section">
                 <h3>subscribe</h3>
                 <p>UnCharted Compass Exclusives only for our subscribers. You can unsubscribe at any time.</p>
                 <form action="">
                     <input type="email" placeholder="Email address">
-                    <button type="submit">Sign up</button>
+                    <button type="submit" class="bg-black">Sign up</button>
                 </form>
            </section>
 
@@ -195,7 +198,7 @@
         
            <footer>
                 <nav>
-                    <ul>
+                    <ul class="flex">
                         <li>OUR JOURNEY</li>
                         <li>DESTINATION</li>
                         <li>EXPLORE</li>
@@ -205,19 +208,19 @@
                     </ul>
                 </nav>
 
-                <div>
-                    <img src="/assets/logo.jpg" alt="">
+                <div class="footer-logo flex">
+                    <img src="/assets/logo.jpg" alt="" width="100px" height="auto">
                 </div>
                 <!-- Social media links -->
-                <div>
-                    <ul>
+                <div class="social-media">
+                    <ul class="flex">
                         <li><a href="#">f</a></li>
                         <li><a href="#">i</a></li>
                         <li><a href="#">p</a></li>
                         <li><a href="#">t</a></li>
                     </ul>
                 </div><hr>
-                <div>
+                <div class="footer-copyright flex">
                     <h4>
                         COPYRIGHT 2025 THE UNCHARTERED EXPEDITIONS | ALL RIGHT RESERVED
                     </h4>
