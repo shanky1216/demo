@@ -248,4 +248,8 @@ footer .footer-copyright {
         width: 90vw;
         padding-bottom: 1rem ;
      }
+
+     footer ul {
+        flex-direction: column;
+     }
 }
