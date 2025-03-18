@@ -20,19 +20,21 @@ a {
 
 .home-main .top-navbar{
     background-color: white;
-    height: 10vh;
+    font-size:xx-large;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 10;
-}
+   }
 
  .home-main .top-navbar ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+    gap: 3rem;
  }
 
  ul li {
@@ -98,15 +100,6 @@ a {
 
 
  /* Header section */
- header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: white;
-    margin-bottom: 5vh;
- }
 
  header h3 {
     font-size: 2rem;
@@ -116,6 +109,31 @@ a {
     font-size: 1.5rem;
     font-weight: 400;
  }
+ .header {
+   margin-top: 5rem;
+   width: 50%;
+   height: 300px; 
+   margin: auto;
+   background-size: cover;
+   background-position: center;
+   transition: background-image 1s ease-in-out;
+   position: relative;
+   margin-bottom: 4rem;
+}
+
+.header-description {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   color: white;
+   padding: 10px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
 
  .the-great-migration {
     padding: 0rem 5vw;
@@ -341,4 +359,32 @@ footer .footer-copyright {
  .map-section iframe {
     width: 85vw;
  }
+}
+
+.accordion {
+   width: 100%;
+   margin-bottom: 10px; 
+   /* border: 1px solid #ccc; */
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.accordion-header {
+   background: black;
+   color:white;
+   padding: 10px;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.accordion-content {
+   display: none;
+   padding: 10px;
+   border-top: 1px solid #ccc;
+}
+
+.active .accordion-content {
+   display: block;
 }
