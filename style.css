@@ -52,11 +52,11 @@ a {
 
  @media (max-width: 768px) {
     .home-main .top-navbar ul {
-        flex-direction: column;  /* Stack items vertically */
+        flex-direction: column; 
         align-items: flex-start;
-        display: none;  /* Hide navbar by default on mobile */
+        display: none;   
         position: absolute;
-        top: 10vh;  /* Below the fixed navbar */
+        top: 10vh;  
         left: 0;
         width: 100%;
         background-color: white;
@@ -69,7 +69,7 @@ a {
     }
 
     .home-main .top-navbar ul.show {
-        display: block;  /* Show navbar when 'show' class is added */
+        display: block; 
     }
 
     .mobile-menu-toggle {
@@ -89,7 +89,6 @@ a {
         margin: 1.2rem;
     }
 
-    /* Adjust logo size for mobile */
     .home-main .top-navbar ul li a img {
         width: 40px;
     }
@@ -155,8 +154,9 @@ a {
  .overview-section h3 {
     font-size: 1.5rem;
  }
-
- .day-section-main {
+/* 
+ Day section */
+  .day-section-main {
     margin: 1rem 0rem;
     border-bottom: 1px solid black;
  }
@@ -177,19 +177,24 @@ a {
 
  .day-section-outer p {
     padding: 0rem 0.5rem;
- }
+ } */
+
+
+ /* end day section */
 
  .map-section iframe {
     width: 50vw;
     height: 50vh;
  }
 
+ /* silder */
+
  .migration-carausal {
     padding: 2rem 0vw;
     background: url(/assets/background.jpg);
     background-repeat: no-repeat;
      background-size: cover;
-      height: 30vh;
+      height: 50vh;
       color: white;
       font-weight: 600;
       font-size: 2rem;
@@ -197,6 +202,21 @@ a {
       align-items: center;
       padding: 0rem 1rem;
  }
+
+ .migration-carausal span {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    color: white;
+}
+
+ .migration-carausal span:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* slider end */
 
  .migration-profile-section {
     padding: 0.8rem;
